@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  alog_test:
+    build:
+      context: .
+      dockerfile: alog.dockerfile
+    environment:
+      CONFIG_FILE: ../configs/config.yaml
